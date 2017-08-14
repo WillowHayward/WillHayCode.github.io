@@ -1,5 +1,6 @@
 ---
-title: Blog
+title: Home
+visible: true
 ---
 
 # Recent Blog Posts
