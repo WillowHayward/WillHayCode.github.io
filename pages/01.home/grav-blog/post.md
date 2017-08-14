@@ -1,0 +1,26 @@
+---
+title: Grav Blog
+date: 15:34 14-08-201
+taxonomy:
+    tag:
+        - grav
+        - whoop
+    category:
+        - blog
+---
+
+Well, here it is - my tech blog. I'm going to use this thing to talk about projects I'm working on, technologies I'm working with, and just generally write about tech things that I think are interesting.
+
+My next few weeks are probably going to be eaten up by jury duty, but some topics I've got in the pipeline:
+
+ * Phaser, Scene Graphs, and Zooming
+ * Lipwig: The how, the what, and the why
+ * Project Mind Map
+
+ So get keen for that.
+
+ This blog is being entirely run through [Grav](https://getgrav.org/), which is a Flat-File CMS. What that basically means is that I'm not going to be using the Grav interface where I can avoid it - all of my posts are gonna run through [my GitHub](https://github.com/WilliamHayward/blog).
+
+ The theme being used here is [Medium](https://github.com/mblode/grav-theme-medium) by Matthew Blode. It's quite nice to look it, but it has a feature that I _could not_ find in any of the other themes I looked at: _it doesn't add blog/ to the URL_. This might not seem like the biggest deal but dang, when you're trying to set up a Grav website in a subdirectory, most themes don't play nice.
+
+ So thanks for that, Matthew! You're a true hero.
