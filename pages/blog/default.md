@@ -2,4 +2,4 @@
 title: Blog
 ---
 
-# This is my blog
+# Blog Posts
