@@ -17,11 +17,11 @@ Overall, it's been a pretty good experience. It does things a bit differently to
 
 About a month ago, my brother said to me "Hey you know how programmers hate when someone comes to them with a terrible half-baked idea? Yeah, I've got one of those."
 
-The idea is based around an existing game, [Funny Farm](http://shygypsy.com/farm/p.cgi). In Funny Farm, you start by looking at this scree
+The idea is based around an existing game, [Funny Farm](http://shygypsy.com/farm/p.cgi). In Funny Farm, you start by looking at this screen
 
 ![Funny Farm 1](ff-1.png)
 
-A clue ("On The Farm"), and a textbox to put guesses into. If you guess one of the words directly connected to One The Farm, it reveals and opens up new hidden words.
+A clue ("On The Farm"), and a textbox to put guesses into. If you guess one of the words directly connected to On The Farm, it reveals and opens up new hidden words.
 
 ![Funny Farm 2](ff-2.png)
 
@@ -91,9 +91,9 @@ That's more or less the heart of the Scene Graph. A collection of nodes with a f
 
 Given that a camera has four properties (x, y, width, height) it would be easy to assume that in order to zoom in, you'd just make the height/width smaller, and that to zoom out you'd make them bigger.
 
-The theory on that is perfectly sound. On paper that's exactly what you do - but computers are decidedly *not* paper, so it gets a bit trickier.
+On paper that's exactly what you do - but computers are decidedly *not* paper, so it gets a bit trickier.
 
-See it turns out that displaying an image on screen is trickier than you'd think. I'm not a graphics man, so I can't give you the full details - but because of the way that Phaser was coded originally, zooming is not on the menu. The creators, Photonstorm, are working hard to rectify this in V3, slated for release later this year, but until then the way that you zoom in Phaser is... well it's insane.
+See it turns out that displaying an image on screen is more difficult than you'd think. I'm not a graphics man, so I can't give you the full details - but because of the way that Phaser was coded originally, zooming is not on the menu. The creators, Photonstorm, are working hard to rectify this in V3, slated for release later this year, but until then the way that you zoom in Phaser is... well it's insane.
 
 Let's expand our Scene Graph theory a little bit.
 
@@ -129,7 +129,9 @@ This might sound really dumb, but honestly it's not an awful solution. It gives 
 
 # Maths and Abandonment
 
-While technically functional, this new world-warping camera has some drawbacks. Suddenly operations that used to be as simple as could be - such as mapping a location from the screen to the corresponding location in the world - have maths added to them. You have to account for the scale, for the screen width, for how much or how little to shift the camera during zooming. It's a headache. It's also why I'm abandoning my current build of Project Mind Map.
+While technically functional, this new world-warping camera has some drawbacks. Suddenly operations that used to be as simple as could be - such as mapping a location from the screen to the corresponding location in the world - have maths added to them. You have to account for the scale, for the screen width, for how much or how little to shift the camera during zooming. It's a headache. 
+
+It's also why I'm abandoning my current build of Project Mind Map.
 
 With a fresh start, I can build the game around the camera - and even save that code for future projects. Plus, I can write about my progress here. I've always wanted to have a series like [Shamus Young's Project Frontier](https://www.shamusyoung.com/twentysidedtale/?p=11874) (Or really any of his [programming series](https://www.shamusyoung.com/twentysidedtale/?cat=66)), and so that's what this is. Writing about this project is going to give me some good ol' practice at writing in this style.
 
