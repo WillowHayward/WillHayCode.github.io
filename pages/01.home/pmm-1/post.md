@@ -1,6 +1,5 @@
 ---
 title: Project Mind Map Part 1 - Scene Graphs and Abandonment
-date: 
 taxonomy:
     tag:
         - phaser
