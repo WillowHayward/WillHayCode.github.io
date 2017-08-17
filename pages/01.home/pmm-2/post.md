@@ -1,0 +1,92 @@
+---
+title: Project Mind Map Part 2 - Tools
+taxonomy:
+    tag:
+        - phaser
+        - tech
+        - project-mind-map
+        - linux
+        - vscode
+        - typescript
+    category:
+        - blog
+---
+
+When you want to build a chair, you don't just grab the nearest wood and a hammer and get started*, you plan it first. You choose the kind of wood, the plans for the chair, the specific tools. You have to do all this work before the work can even begin.
+
+*or maybe you do, I'm not a carpenter.
+
+That's where I'm at right now. I know *what* I want to build, but charging in without a plan is why I'm having to restart now. It was fun as heck, and it gave me a nice little proof of concept, so that's nice.
+
+"Tools" is very vague, so I'm gonna break this up into three sections - evironment tools, source tools, and blogging tools.
+
+# Environment Tools
+
+These are the tools that I'm going to be using to code in. They're not at all vital for Project Mind Map to work, they just happen to be what I'm going to use to build it.
+
+## Xubuntu 16.04
+
+I have two computers. My laptop, which is use 90% of the time, and my desktop, which is almost exclusively for gaming. On my desktop I run Windows, because despite what a lot of tech nerds will argue - *Windows is a good operating system*. That's not the debate I'm here for.
+
+I use Xubuntu on my laptop for a two simple reasons
+
+1. It's 10x more lightweight. If I boot Windows up on it, the fans *scream*. It's so loud, it's almost unusable.
+2. [Virtual desktops](https://en.wikipedia.org/wiki/Virtual_desktop). This is a feature that MacOS has too, and it's incredible. I won't go into too much detail, but having multiple desktops is what took me from having 3 monitors to 1, and everything being easier for me.
+
+Xubuntu specifically because it's what was recommended to me, but honestly I'd recommend most Ubuntu distros.
+
+## Visual Studio Code
+
+[Visual Studio Code](https://code.visualstudio.com/) has been my go-to editor for a few months now. I used to use Atom, but something about VSCode just really clicked with me, and the in-program terminal is a lifesaver
+
+Check it - it's what I'm writing this in, right now!
+
+![VSCode](vscode.png)
+
+# Source Tools
+
+Okay, enough about me. Let's talk about what Project Mind Map is going to be *made* of.
+
+## Phaser 2.6.2
+
+Phaser is a HTML5 Game Framework. Buzzword is a buzzing buzzard buzzword.
+
+Learning to code is a great experience, but god - there's so many *terms*. Java, JavaScript, HTML, HTML5, CSS, Responsive, React, yada, yada, yada. It's genuinely exhausting. I would love to start building up a dictionary of tech terms, but honestly I don't even know most of them well enough to summarise. In lieu of that, I'm just going to make an effort to explain terms that I think warrant an explanation.
+
+Basically, HTML5 just means "JavaScript, but the more modern version." and "game framework" just means "A collection of JavaScript libraries that give you what you need to make games". Phaser is the name of this framework.
+
+Phaser comes in 3 flavours.
+
+1. Phaser 2. The last official Phaser release before the developers moved their focus to haser 3.
+2. Phaser CE. The community basically picked up where the original developers left off, and they've kept it updated. The power of community.
+3. Phaser 3. The upcoming official Phaser release.
+
+Phaser CE is nice, but it doesn't offer anything especially enticing. Phaser 3 is looking frankly *beautiful*, but unfortunately it isn't due for release until later this year, and the Alpha release is somewhat documentation lacking.
+
+## TypeScript
+
+TypeScript, for those who don't know, is kind of like JavaScript+. You write your code in TypeScript, and then a magical computer program turns that code into JavaScript. It sounds a little bit convoluted, but TypeScript lets you write code using a bunch of features that aren't natively supported by JavaScript, and then it turns them into JavaScript. Classes, types, header files.
+
+I still love Vanilla JavaScript, but honestly I just prefer using TypeScript. Also it auto-completes nicer than JavaScript for VSCode.
+
+You could make the argument that this should be classified as an Environment Tool, but you didn't and it's too late to go back now now.
+
+# Blogging Tools
+
+I really want to blog more. It's very therapeutic for me, and it gets me thinking about my projects. Putting my thoughts on what I've already done might help me know what to do next. So these are the tools I'd like to use for it.
+
+## Grav/Markdown
+
+My blog is entirely Flat-File. What that means is that I'm not running a database for it - it's just loading files directly from my server hard drive. It does this using a thing called [Grav](https://getgrav.org/).
+
+The posts themselves are written in Markdown. Markdown is just a way to write formatted text without writing full blown HTML. If you've ever written a reddit comment or edited a Wikipedia page, you've actually used Markdown already. 
+
+## Git/GitHub
+
+Again, probably more of an environment tool but I want to use Git as a way of sharing the code on a per-blogpost basis. It's also how I write my [blogposts](https://github.com/WilliamHayward/blog), actually.
+
+I'm going to use the master branch for the most up to date builds, and then specific branches to show progress between blogposts.
+
+[This](https://github.com/WilliamHayward/project-mind-map) is the repository. At time of writing it's empty, but hopefully not for too long.
+
+And so that's about it. Those are the tools I'm going to use to build Project Mind Map.
