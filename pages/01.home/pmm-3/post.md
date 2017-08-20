@@ -25,7 +25,7 @@ A boilerplate is basically a great steel mold used to build boilers. It's also u
 
 Firstly, it's more focused on building something that can be released to the public. It has existing code for ads, for analytics. My last boiler plate was just "Here's a folder containing Phaser. Have at it."
 
-Second, it supports somme of the tools I'm already using. Namely grunt.
+Second, it supports some of the tools I'm already using. Namely grunt.
 
 Bam, buzzword. Grunt is a little commandline (so entirely text based) tool to help you do things in projects. Type "grunt start" and it runs the "start" command, however you define that. 
 
@@ -49,7 +49,7 @@ vs
 if (variable < 3 || variable == 3) {
     variable++;
 }
-~~
+~~~
 
 Variable names, spacing, type definitions. It's 10x easier to read code that uses consistent styling, and if my code isn't completely in-line with the style guide, it won't even build. It yells at me - look.
 
