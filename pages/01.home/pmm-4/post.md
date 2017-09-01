@@ -78,7 +78,7 @@ return null;
 
 This is what the old system was, and it has its ups and downs. The biggest advantage is how easy to implement it is. It's just looking through a few lists. The biggest downside is that it has what's called O(n) efficiency. What that means is that, worst case scenario, if there's n tiles, it'll take n attempts to find the tile. If I've got 100 tiles total, it might find it on the first attempt, but worst case is that it'll find it on the 100th attempt.
 
-This isn't actually too ineficient, but if someone makes an enourmous map, it'll be kinda slow sometimes. Let's see if we can efficiency it up a bit.
+This isn't actually too ineficient, but if someone makes an enourmous map (say, ten thousand tiles), it'll be kinda slow sometimes. Let's see if we can efficiency it up a bit.
 
 # Revealed neighbours
 
@@ -88,7 +88,7 @@ This method relies on the fact that, for the most part, we're not looking for ti
 
 To implement this method, we need to keep a list of revealed tiles (1 at the start of the game, but it'll grow)
 
-Then, we ask each revealed tile to have a look at its **visible** neighbours, and see if they're the ones we're after. If it's not, we're good.
+Then, we ask each revealed tile to have a look at its **visible** neighbours, and see if they're the ones we're after. If it's not, we just keep looking.
 
 ~~~
 for each revealed:
@@ -109,6 +109,12 @@ This one is pretty similar to the last one, honestly. Keep a list of all the **v
 # Conclusion
 
 I'm still tossing up which one to go with. The second and third ones are definitely *better*, but I don't know that zone lookup would be slow enough to really be a problem. If I can do a quick and functional implementation, I'd probably prefer that over a slow and more efficient implementation.
+
+There's a saying in computer science. *premature optimization is the root of all evil*. What that means is that yes, I could spent the next week implementing the fastest possible tile lookup. It could have O(1) efficiency (so no matter how many tiles there are, it's always gonna take the same amount of time to find) and all of these other great efficiency features. But the problem is that it would be the most efficient *not actually a game* in all of town.
+
+If I get down the line and find that tile lookup is actually being slow, great - I'll do it again but better. But there's a chance it won't be a problem, and any time spent optimizing now would be wasted.
+
+Whole projects get swallowed up into premature optimization. Not this one, though.
 
 There wasn't any explicit code or actual progress in this one, so instead take this Gif of a botched attempt at making a camera.
 
