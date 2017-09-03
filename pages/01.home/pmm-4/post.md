@@ -11,7 +11,7 @@ taxonomy:
 
 # Terminology
 
-One of the trickier parts of programming is naming things. Finding intuitive ways to describe stuff, over and over again. It's not necessarily hard, it just comes up a lot and it can get a bit exhausted. 
+One of the trickier parts of programming is naming things. Finding intuitive ways to describe stuff, over and over again. It's not necessarily hard, it just comes up a lot and it can get a bit exhausting. 
 
 The easiest way (in my opinion) is to use a mental model. Find something that exists in the real world that's *kinda* similar and just use the same terms. 
 
@@ -78,7 +78,7 @@ return null;
 
 This is what the old system was, and it has its ups and downs. The biggest advantage is how easy to implement it is. It's just looking through a few lists. The biggest downside is that it has what's called O(n) efficiency. What that means is that, worst case scenario, if there's n tiles, it'll take n attempts to find the tile. If I've got 100 tiles total, it might find it on the first attempt, but worst case is that it'll find it on the 100th attempt.
 
-This isn't actually too ineficient, but if someone makes an enourmous map (say, ten thousand tiles), it'll be kinda slow sometimes. Let's see if we can efficiency it up a bit.
+This isn't actually too ineficient, but if someone makes an enormous map (say, ten thousand tiles), it'll be kinda slow sometimes. Let's see if we can efficiency it up a bit.
 
 # Revealed neighbours
 
