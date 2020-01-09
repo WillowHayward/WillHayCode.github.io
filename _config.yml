@@ -28,22 +28,24 @@ github_username:  WilliamHayward
 
 # Build settings
 remote_theme: thelehhman/texture
-theme: texture
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 texture:
   title: William Hayward
   tagline: Software Developer
   date_format: "%b %-d, %Y"
   style: blue
-  showNav: true
 
   social_links:
     github:  WilliamHayward
+    twitter: WillHayCode
     linkedIn: in/williamhayward1996
 
 show_excerpts: true
+
+permalink: /:year/:month/:day/:title/
 
 
 # Exclude from processing.
