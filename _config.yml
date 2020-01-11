@@ -27,16 +27,17 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  WilliamHayward
 
 # Build settings
-remote_theme: thelehhman/texture
+remote_theme: thelehhman/plainwhite-jekyll
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
-texture:
-  title: William Hayward
+plainwhite:
+  name: William Hayward
   tagline: Software Developer
   date_format: "%b %-d, %Y"
-  style: blue
 
   social_links:
     github:  WilliamHayward
